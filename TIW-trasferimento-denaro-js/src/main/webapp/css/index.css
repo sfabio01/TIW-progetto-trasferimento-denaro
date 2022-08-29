@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+
+
+#wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+	#wrapper {
+		flex-direction: column;
+	}
+}

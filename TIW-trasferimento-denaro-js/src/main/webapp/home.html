@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<link rel="stylesheet" type="text/css"  href="css/common.css">
+<link rel="stylesheet" type="text/css"  href="css/homepage.css">
+<script src="home.js" charset="utf-8" defer></script>
+</head>
+<body>
+	<p id="infoMessage"></p>
+	<h1 id="welcomeMessage"></h1>
+	<h2>Seleziona un conto corrente</h2>
+	<ul id="accountList">
+	
+	</ul>
+	<h2 id="selectedAccount"></h2>
+	<h3 id="accountBalance"></h3>
+	<div class="form-wrap">
+	<h2>Nuovo trasferimento</h2>
+	<form id="createTransferForm" action="#">
+		<p><input type="number" name="amount" min="1" placeholder="Importo" required/></p>
+		<p><input type="text" name="reason" placeholder="Causale" required/></p>
+		<p><input type="text" name="username" list="contactList" placeholder="Codice utente destinatario" required/></p>
+		<datalist id="contactList"></datalist>
+		<p><input type="text" name="accountId" placeholder="Codice conto destinatario" required/></p>
+		<p><input type="submit" class="button" value="INVIA" /></p>
+	</form>
+	<p id="transferMessage"></p>
+	</div>
+	
+	<h2>Lista trasferimenti</h2>
+	<table>
+	<thead>
+		<tr>
+			<td><b>Importo</b></td>
+			<td><b>Causale</b></td>
+			<td><b>Origine</b></td>
+			<td><b>Destinatario</b></td>
+			<td><b>Data</b></td>
+		</tr>
+	</thead>
+	<tbody id="tableBody">
+		
+	</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+<link rel="stylesheet" type="text/css"  href="css/index.css">
+<link rel="stylesheet" type="text/css"  href="css/common.css">
+<style type="text/css">
+	
+</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="form-wrap">
+			<h2>Accedi</h2>
+			<form id="login-form" action="Login"
+				method="POST">
+				<p><input type="text" name="username" placeholder="Username"></p>
+				<p><input type="password" name="password" placeholder="Password"></p> 
+				<p><input type="submit" value="Accedi"></p>
+			</form>
+		</div>
+		
+		<div id="form-wrap">
+			<h2>Registrati</h2>
+			<form action="Register"
+				method="POST">
+				<p><input type="text" name="username" placeholder="Username" required></p>
+				<p><input type="text" name="firstname" placeholder="Nome" required></p>
+				<p><input type="text" name="lastname" placeholder="Cognome" required> </p>
+				<p><input type="email" name="email" placeholder="Email" required> </p>
+				<p><input type="password" name="password1" placeholder="Password" required></p>
+				<p><input type="password" name="password2" placeholder="Ripeti password" required></p>
+				<p><input type="submit" value="Registrati"></p>
+			</form>
+		</div>
+	</div>
+	
+	
+</body>
+</html>

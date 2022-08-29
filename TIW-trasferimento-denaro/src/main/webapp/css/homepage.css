@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+table {
+	display: table;
+	width: 100%;
+  	text-indent: initial;
+  	border-spacing: 2px;
+  	padding: 8px;
+  	border: none;
+  	border-collapse: collapse;
+}
+
+td {
+	padding: 8px;
+}

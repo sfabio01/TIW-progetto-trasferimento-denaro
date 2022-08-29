@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+table {
+	display: table;
+	width: 100%;
+  	text-indent: initial;
+  	border-spacing: 2px;
+  	padding: 8px;
+  	border: none;
+  	border-collapse: collapse;
+}
+
+td {
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+  	background-color: rgba(72, 172, 152, 0.4);
+}

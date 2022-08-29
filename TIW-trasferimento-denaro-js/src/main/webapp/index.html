@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+<link rel="stylesheet" type="text/css"  href="css/index.css">
+<link rel="stylesheet" type="text/css"  href="css/common.css">
+<script src="index.js" charset="utf-8" defer></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="form-wrap">
+			<h2>Accedi</h2>
+			<form id="login-form" action="#">
+				<p><input type="text" name="username" placeholder="Username"></p>
+				<p><input type="password" name="password" placeholder="Password"></p> 
+				<p><input type="submit" value="Accedi"></p>
+			</form>
+			<p id="error-message1"></p>
+		</div>
+		
+		<div class="form-wrap" >
+			<h2>Registrati</h2>
+			<form id="register-form" action="#">
+				<p><input type="text" name="username" placeholder="Username" required></p>
+				<p><input type="text" name="firstname" placeholder="Nome" required></p>
+				<p><input type="text" name="lastname" placeholder="Cognome" required> </p>
+				<p><input type="email" name="email" placeholder="Email" required> </p>
+				<p><input type="password" name="password1" placeholder="Password" required></p>
+				<p><input type="password" name="password2" placeholder="Ripeti password" required></p>
+				<p><input type="submit" value="Registrati"></p>
+			</form>
+			<p id="error-message2"></p>
+		</div>
+	</div>
+</body>
+</html>
